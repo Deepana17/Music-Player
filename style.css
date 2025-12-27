@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.player {
+  background-color: #222;
+  width: 300px;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.cover img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.song-info h2 {
+  margin: 10px 0 5px 0;
+  font-size: 18px;
+}
+
+.song-info p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.controls button {
+  background-color: #445b9b;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.controls button:hover {
+  background-color: #666;
+}
+
+.play-btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.progress-container {
+  background-color: #444;
+  height: 6px;
+  width: 100%;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+
+.progress {
+  background-color: purple;
+  height: 6px;
+  width: 30%;
+  border-radius: 3px;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #49756e;
+}

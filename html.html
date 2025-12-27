@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stle.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Static Music Player UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="player">
+    <div class="cover">
+      <img src="images.jpg" alt="Album Cover" />
+    </div>
+
+    <div class="song-info">
+      <h2>DYNAMITE</h2>
+      <p>Tiao Cruz</p>
+    </div>
+
+    <div class="controls">
+      <button class="btn" title="Previous">&#9664;&#9664;</button>
+
+      <!-- Play/pause toggle checkbox -->
+      <input type="checkbox" id="play-toggle" />
+      <label for="play-toggle" class="play-pause" title="Play/Pause"></label>
+
+      <button class="btn" title="Next">&#9654;&#9654;</button>
+    </div>
+
+    <div class="progress-container" title="Progress Bar">
+      <div class="progress"></div>
+    </div>
+
+    <div class="time">
+      <span>1:16</span>
+      <span>2:25</span>
+    </div>
+  </div>
+</body>
+</html>
